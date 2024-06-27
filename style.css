@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+ --btn-color1:#ec2c2c;
+--btn-color2:#fc549c;
+--h-bg-color1:#181c44;
+--h-bg-color2:#5c1c38;
+--h1f-size:45px;
+--box1:#ffb5b0;
+--box2:#ffbc92;
+--box3:#b3f5bc;
+--box4:#ffd4f4;
+--box5:#e8ccfc;
+--uniq-img-bg:#ffbcc4;
+}
+
+body{
+    font-family: "Roboto,sans-serif";
+}
+
+button{
+background: linear-gradient(to right,#ec2c2c , #fc549c);
+}
+nav .icon {
+color: white!important;
+background-color: white !important;
+padding: 5px!important;
+}
+
+.home-container{
+background: linear-gradient(to right,#181c44 ,#80243b );   
+}
+
+.home-container .home-body h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.home-container .home-body p{
+    font-size: 23px;
+    color: rgb(204, 202, 202) !important;
+}
+.home-container .h1span{
+  color: #ec2c2c;
+} 
+.home-container .pspan{
+    color: #ec2c2c;
+}
+.skill-container{
+    width: 100% ;
+    min-height: 57vh;
+    position:relative ;
+    background-color: #afa5d4;
+}
+.skill{
+    width: 100% ;
+    background-image: url(image/Mask\ Group\ 19.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position:absolute ;
+    min-height:57vh ;
+}
+.upskillhead{
+    color: #181c44;
+}
+.skill-body{
+    min-height:45vh ;
+}
+.skill-img-clumn{
+    position: relative ;
+    object-fit: cover;
+}
+.skill-imag{
+    height:60vh ;
+    position:absolute;
+    margin-top: -97px;
+    margin-left: -80px;
+}
+.skill-imag img{
+   
+    width:85%;
+} 
+h2,h1{
+    font-weight: bold;
+}
+  /*media query -mobile responsive */
+@media only screen and (max-width:500px) and (min-width:200px){
+    .home-container{
+        display: flex;
+        justify-content: center;
+    }
+    .home-container .home-body{
+      padding-left: 40px;
+    }
+    .home-container .home-body h1{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .home-container .home-body p{
+        font-size: 20px;
+        color: rgb(204, 202, 202) !important;
+    }
+    .upskillhead{
+        padding-top: 40px;
+    }
+    
+    .skill-container{
+    height: 103vh;
+    } 
+    .techSector{
+        padding: 20px 0;
+    } 
+    .skill-imag{
+    margin-top: 320px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    margin-left: 10px;
+    }
+   
+    .skill-imag img{
+       
+        width:60%;
+    }
+    
+    body{
+    text-align: justify;
+    }
+    .home-container h1{
+    font-size: 28px;
+    word-spacing: 3px;
+    }
+    .que-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .womenProgramBody h1{
+        font-size: 25px !important;
+    }
+    .womenProgramBody h2{
+        font-size: 20px !important;
+       
+    }
+    .womenProgramBody p{
+        font-size: 10px !important;
+    }
+}
+/* uniq */
+.que-1{
+    background-color: var(--box1) !important;
+}
+.que-2{
+    background-color: var(--box2) !important;
+}
+.que-3{
+    background-color: var(--box3) !important;
+}
+.que-4{
+    background-color: var(--box4) !important;
+}
+.que-5{
+    background-color: var(--box5) !important;
+}
+.uniq-bg{
+    background-color: var(--uniq-img-bg) !important;
+}
+/* growth */
+.nav-pills{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+}
+.cardp{
+    background: linear-gradient(to right,#ffb5b083 , white);  
+}
+/* blog */
+.blog a{
+ text-decoration: underline;
+}
+.blog h1 span{
+    color: #ec2c2c;
+}
+.blog h1 .women{
+    font-size: 43px!;
+}
+
+/*  women*/
+.womenProgramBody h1{
+    font-size: 45px;
+}
+.womenProgramBody h2{
+    font-size: 37px !important;
+}
+.womenProgramBody p{
+    font-size: 23px !important;
+    color: gray;
+}
+.womenProgramContainer{
+    background-color: #f9f9f9;
+    /* height:65vh !important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nasscomContainer{
+    background-color: #111840;
+}
+.freeDemoContainer{
+    background-color: #eb282b;
+}
+.nLinks{
+    display: flex;
+    gap:20px;
+}
+.wpImage{
+    margin-bottom: -18px;
+}
+.nLinks li a{
+    text-decoration: none;
+    color:white;
+}
+.uniqueText{
+    padding-bottom: 30px;
+}
+/* footer section  */
+.footer-section{
+    background-color: #181c44;
+}
+.footer-section a{
+    text-decoration: none;
+}
+.foot{
+    background-color: #ec2c2c;
+
+}
+.foot p{
+    background-color: #181c44;
+}
+.footer-section .foot-row1{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
